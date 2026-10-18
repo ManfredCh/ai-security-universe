@@ -386,7 +386,7 @@
   author       = {程明骏},
   year         = {2026},
   version      = {v0.2.0},
-  howpublished = {\url{https://github.com/ManfredCh/ai-security-surveys}},
+  howpublished = {\url{https://github.com/ManfredCh/ai-security-universe}},
   note         = {整稿候选，数据截止 2026-08-09。许可：CC BY-NC-SA 4.0}
 }
 ```
@@ -419,7 +419,7 @@
 ## 致谢
 
 - 正文引用的每一篇论文、项目、标准与事件报告——本稿是对它们工作的综合。
-  [AI 安全攻防综述](https://github.com/ManfredCh/ai-security-surveys)里的逐篇图谱直接链接了其中 97 篇。
+  [AI 安全攻防综述](https://github.com/ManfredCh/ai-security-universe)里的逐篇图谱直接链接了其中 97 篇。
 - 各轮审校以独立模型通道完成，记录保存在本地而不公开。
 - **AI 使用声明**：本稿在结构整理、翻译与英文重写上使用了 AI 辅助。每一份译文与重写都经过
   对照中文原稿的独立核查；数字、限定语、引用与技术术语均经程序化校验。
@@ -427,17 +427,17 @@
 
 ## 星标趋势
 
-<a href="https://star-history.com/#ManfredCh/ai-security-surveys&Date">
+<a href="https://star-history.com/#ManfredCh/ai-security-universe&Date">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ManfredCh/ai-security-surveys&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ManfredCh/ai-security-surveys&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ManfredCh/ai-security-surveys&type=Date" width="600" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ManfredCh/ai-security-universe&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ManfredCh/ai-security-universe&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ManfredCh/ai-security-universe&type=Date" width="600" />
   </picture>
 </a>
 
 <div align="center">
 
-[![Stars](https://img.shields.io/github/stars/ManfredCh/ai-security-surveys)](https://github.com/ManfredCh/ai-security-surveys/stargazers)  ·  [![Forks](https://img.shields.io/github/forks/ManfredCh/ai-security-surveys)](https://github.com/ManfredCh/ai-security-surveys/forks)  ·  [![Issues](https://img.shields.io/github/issues/ManfredCh/ai-security-surveys)](https://github.com/ManfredCh/ai-security-surveys/issues)  ·  [![Last commit](https://img.shields.io/github/last-commit/ManfredCh/ai-security-surveys)](https://github.com/ManfredCh/ai-security-surveys/commits)
+[![Stars](https://img.shields.io/github/stars/ManfredCh/ai-security-universe)](https://github.com/ManfredCh/ai-security-universe/stargazers)  ·  [![Forks](https://img.shields.io/github/forks/ManfredCh/ai-security-universe)](https://github.com/ManfredCh/ai-security-universe/forks)  ·  [![Issues](https://img.shields.io/github/issues/ManfredCh/ai-security-universe)](https://github.com/ManfredCh/ai-security-universe/issues)  ·  [![Last commit](https://img.shields.io/github/last-commit/ManfredCh/ai-security-universe)](https://github.com/ManfredCh/ai-security-universe/commits)
 
 </div>
 
@@ -469,6 +469,6 @@
 
 ## 相关仓库
 
-- **[Generative and Embodied AI Security](https://github.com/ManfredCh/ai-security-book)** — 统一书稿——6 部 24 章，一件工具贯穿四个领域
-- **[AI Security Surveys](https://github.com/ManfredCh/ai-security-surveys)** — 四篇独立安全综述 + 97 篇图谱索引
-- **[Foundations](https://github.com/ManfredCh/ai-security-foundations)** — 入门教程与两篇技术背景综述
+- **[Generative and Embodied AI Security](https://github.com/ManfredCh/hello-ai-security)** — 统一书稿——6 部 24 章，一件工具贯穿四个领域
+- **[AI Security Surveys](https://github.com/ManfredCh/ai-security-universe)** — 四篇独立安全综述 + 97 篇图谱索引
+- **[Foundations](https://github.com/ManfredCh/happy-ai-security)** — 入门教程与两篇技术背景综述
