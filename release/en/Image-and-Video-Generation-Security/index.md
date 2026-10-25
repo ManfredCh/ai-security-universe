@@ -26,7 +26,3 @@
 20. [A.2 — New deepfake and authenticity events since the cutoff](20-A-2-New-deepfake-and-authenticity-events-since.md)
 21. [A.3 — Provenance and standards movement since the cutoff](21-A-3-Provenance-and-standards-movement-since-th.md)
 22. [A.4 — How to use this appendix](22-A-4-How-to-use-this-appendix.md)
-23. [B.1 — Election deepfakes on both sides of the boundary](23-B-1-Election-deepfakes-on-both-sides-of-the-boundary.md)
-24. [B.2 — Generation-stack movement affecting the threat surface](24-B-2-Generation-stack-movement-affecting-the-threat-surface.md)
-25. [B.3 — Toolchain items touching media pipelines](25-B-3-Toolchain-items-touching-media-pipelines.md)
-26. [B.4 — How to use this appendix](26-B-4-How-to-use-this-appendix.md)

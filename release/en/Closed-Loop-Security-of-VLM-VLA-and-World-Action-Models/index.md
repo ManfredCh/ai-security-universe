@@ -20,7 +20,3 @@
 14. [A.2 — New embodied-attack papers since the cutoff](14-A-2-New-embodied-attack-papers-since-the-cutof.md)
 15. [A.3 — Institutional consequence of the OpenAI–Hugging Face incident](15-A-3-Institutional-consequence-of-the-OpenAI-Hu.md)
 16. [A.4 — How to use this appendix](16-A-4-How-to-use-this-appendix.md)
-17. [B.1 — Commercial robot flaws and child-data exposure](17-B-1-Commercial-robot-flaws-and-child-data.md)
-18. [B.2 — New embodied-attack and defence work](18-B-2-New-embodied-attack-and-defence-work.md)
-19. [B.3 — Agent actions reaching the physical and institutional layer](19-B-3-Agent-actions-reaching-the-physical-and-institutional-layer.md)
-20. [B.4 — How to use this appendix](20-B-4-How-to-use-this-appendix.md)

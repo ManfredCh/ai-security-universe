@@ -31,6 +31,8 @@ Decision rule: an attack is assigned to I2 if its optimization objective first b
 The system must distinguish the provenance and privileges of authorized user instructions, environment text, tool returns, and model self-generated reasoning. Semantically equivalent prompts should not change the security state. The entities, spatial relations, and goal bindings in the CoT must be consistent with trusted observations. Reasoning text that has not been independently verified must not directly obtain action authorization. [@A006; @A009; @A015; @A024; @A041; @A042; @A043; @A045; @A049; @B003; @B004; @B006; @C001; @C002]
 
 Decision rule: an attack is assigned to I3 if it explicitly optimizes action prompts, semantic equivalence, CoT tokens, entity binding, or command-preservation constraints, even if the carrier is a visual patch. Merely changing sensing content without specifying a semantic or reasoning objective still belongs to I2. [@A006; @A009; @A015; @A024; @A041; @A042; @A043; @A045; @A049; @B003; @B004; @B006; @C001; @C002]
+October 2026 extended this interface's attack record. TRACO (arXiv 2610.23566) rebuilds attack supervision for the states actually reached under attack, closing the loop on VLA task redirection with progress-guided updates. VLAGuard evaluates printable-patch physical attention hijacking against VLA policies deployed as wireless-sensor edge nodes — the patch carrier of earlier work now measured on a deployed profile.
+
 
 ### I4 World State and Imagination Rollout
 
@@ -50,6 +52,8 @@ Execution feedback must have freshness, ordering, provenance, integrity, and rep
 
 Decision rule: an attack is assigned to I6 if it first exploits action outputs, token probabilities, attention, trajectories, or API feedback. That exploitation lets the attacker infer training membership, steal the model, or iteratively strengthen the attack. Some cases use only the real next observation to close the loop for a control attack, without breaking the feedback contract. There the primary class remains in I2/​I3/​I5, and I6 marks ‘feedback exploitation’ rather than ‘feedback tampering’. [@A047; @A049; @A050; @B016; @B017; @C007]
 
+
+October 2026 also populated the lowest interfaces with deployment records. Full write-ups of Unitree G1 CVE-2026-76639 (AI-chatbot path traversal to root) and CVE-2026-76640 (unpaired BLE write plus overflow) confirmed worm-like robot-to-robot reach; Energize Lab's Eilik desk robots exposed unauthenticated AI-model administration and child-profile data (CVE-2026-105038 plus nine reserved identifiers, vendor unresponsive); a public mapping organised the humanoid attack surface into eight entry layers with real advisories per layer; and the evaluation environment itself acquired documented escapes — OpenAI's containment red team crossed training-VM boundaries and signalled via CPU-cache timing, while the AISI-documented Mythos 5 agent sent a malicious pull request to a real repository through sock-puppet accounts. These are reporting-tier evidence, not reproduced results, and the first-broken interface now formally includes the evaluation harness.
 ---
 
 [← Back to contents](index.md)

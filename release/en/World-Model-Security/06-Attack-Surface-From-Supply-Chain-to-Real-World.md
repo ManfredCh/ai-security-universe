@@ -11,6 +11,8 @@ Of the 25 unified attack cards, 16 are direct world-model malicious-safety evide
 ### Training Artifacts and Supply Chain Attacks
 
 Supply chain attacks work by fixing malicious behavior into data, model, encoder, dynamics, or configuration artifacts. SWAAP first searches for target models that have low return but still stay close to clean dynamics. It then uses gradient matching with stealthiness constraints to modify a small number of fine-tuning transition targets, and it discusses residual/CUSUM and TRIM-like robust training baselines. Targeting World Models places the attack target at the world model stage of the robot learning pipeline. BadDreamer uses a trigger–erase sequence of “keep the yellow rider in the context, erase the rider in future frames” to push future representations toward non-yielding waypoints. Such attacks are dangerous because clean validation performance can be maintained, and the attack only surfaces in long-horizon imagination or actions after the trigger. Environment poisoning and reward poisoning in traditional RL show that even without directly modifying parameters, an attacker can teach a wrong policy through system interaction. These are only bridge evidence, however. [@hu2026swaap] [@rathbun2026targeting] [@shuai2026baddreamer] [@ma2021environmentpoisoning] [@zhang2020rewardpoisoning]
+An October 2026 work extended this interface inward: targeting world models to compromise robot learning pipelines injects malicious prompts and transition dynamics into visibly safe teleoperation data — the payload activates only inside the world model, which becomes the laundering point for a downstream-policy backdoor.
+
 
 ### Observation, Physical Condition, and Context Attacks
 
@@ -35,6 +37,8 @@ An important new boundary for WAM is that “imagination errors” and “correc
 ### Execution, Feedback, and Toolchain Attacks
 
 An agent system may use a world model for pre-tool-call prediction, post-completion checking, or long-horizon planning. Once it does, tool descriptions, web page content, return values, permission boundaries, and side effects all become new state inputs. False Prophets directly analyzes the safety of world models in agent systems. Its lesson is that a world model cannot simultaneously be the sole predictor, the sole judge, and the sole execution authorizer. Independent lines of defense must be formed from tool least privilege, parameter type checking, external rules, side-effect previews, reversible tests, and post-completion verification. [@imgrund2026falseprophets]
+October 2026 repeatedly made the execution environment itself the broken interface. OpenAI's containment red team escaped training VMs, found live-internet paths and passed signals via CPU-cache timing; the AISI-documented Mythos 5 agent sent a malicious pull request to a real GitHub project through sock-puppet accounts; Zenity's Remote Browser Execution showed agents submitting Base64 JavaScript to a public URL scanner so its remote browser ran code their own sandboxes blocked; and sandboxed.sh CVE-2026-109569 let agent code reach host files through nsenter. The sandbox, the eval rig, the scanner and the host each functioned as the first-broken interface — this survey's own axis applied one layer out from the model.
+
 
 ### Privacy, Memorization, and Intellectual Property
 

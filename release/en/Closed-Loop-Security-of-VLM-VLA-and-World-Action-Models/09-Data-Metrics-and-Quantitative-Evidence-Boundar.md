@@ -28,6 +28,8 @@ The main biases include selective publication of successful attacks and scoring 
 
 The strongest quantitative conclusion of this chapter is not which attack is strongest on average. It is that the current evidence cannot estimate the industry-average attack effect, and that the strict effect correlations cannot be run either. When statistics cannot substitute for mechanism validation, the next chapter turns to code contracts and complete risk-chain cases. It continues to distinguish author reports, verification in this survey, inferences in this survey, and items not run.
 
+
+A preprint released 2026-10-14, the Survey of Security in Real-World Agents, audits this evidence boundary directly: it separates plan-level from physical-level success across experiments, and records that Safe Prompting cut attack and clean-task success to zero together — a reminder that a defense metric without a benign-utility denominator is uninformative.
 ---
 
 [← Back to contents](index.md)

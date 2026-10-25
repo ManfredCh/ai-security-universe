@@ -19,6 +19,8 @@ UNISafe uses latent-space uncertainty and safety filtering to avoid OOD failures
 ### Runtime Verification, Suppression, and Rollback
 
 CheckVLA uses an action-conditioned world model to preview and verify execution in long-horizon mobile manipulation. DreamGuard uses a risk-aware world model to block high-risk paths before an LLM agent calls a tool. Both kinds of design turn "safety assessment" into closed-loop intervention. If the working model and the checking model share data, encoders, or weaknesses, however, an attacker may deceive both at the same time. More robust deployment requires architectural diversity, independent rules, and a hardware safety envelope. It must also define measurable success conditions for refusal, pause, replanning, rollback, and human takeover. [@liu2026checkvla] [@lin2026dreamguard]
+October 2026 added a verifier and a counterexample to this section. LGWM (arXiv 2610.11942) is a decoder-free world model that verifies GUI-agent transitions by predicting the next screen's representation — 0.987 AUC at 17 ms per decision, a world model deployed as a runtime verifier rather than only an attack surface. Redwood's Screwtape showed the complementary limit: edited agent transcripts evade action-only monitors (35 attacks in 252 runs).
+
 
 ### Adaptive Red Teaming, Continuous Evaluation, and Counterfactual Testing
 

@@ -20,7 +20,3 @@
 14. [A.2 — New papers and benchmarks since the cutoff](14-A-2-New-papers-and-benchmarks-since-the-cutoff.md)
 15. [A.3 — New vulnerabilities since the cutoff](15-A-3-New-vulnerabilities-since-the-cutoff.md)
 16. [A.4 — How to use this appendix](16-A-4-How-to-use-this-appendix.md)
-17. [B.1 — Agent-incident disclosure became a running channel](17-B-1-Agent-incident-disclosure-became-a-running-channel.md)
-18. [B.2 — New papers and benchmarks since the last search](18-B-2-New-papers-and-benchmarks-since-the-last-search.md)
-19. [B.3 — New vulnerabilities and supply-chain items](19-B-3-New-vulnerabilities-and-supply-chain-items.md)
-20. [B.4 — How to use this appendix](20-B-4-How-to-use-this-appendix.md)

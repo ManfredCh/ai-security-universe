@@ -125,6 +125,8 @@ $$
 $$
 
 Finally the script transforms the attack proportion back to 0—1 with the logistic, and the risk ratio back to RR with the exponential. The mean interval answers “where the average true effect may lie”. The prediction interval answers “where the true effect of a new study may lie”. When the prediction interval crosses the null line, no claim that a new deployment will certainly be effective is warranted, however attractive the average is. tau^2 and the prediction interval are very unstable when k<5, and the main text labels them as low certainty. By default, k<3 is not pooled at all.
+The October 2026 evidence wave lands directly in this chapter's denominator problem. Ignored, Not Refused (arXiv 2610.23254) analysed 33,000 agent trajectories and found most failed injections were ignored (76–80%) rather than refused — and that a system-prompt change alone swung attack success from 0.2% to 43% on the same weights. LatentRiskBench measured action-level guardrails at 0.09 detection against 0.96 for state-level checks. HarnessSecurity-Bench showed auto-approve lifting ASR from 29.2% to 95.6% across six harnesses. Approve What, Exactly found four frameworks executing tool-call arguments changed after user approval. INFUSE put mean ASR at 19.6% across 19 models for file-borne injections in coding agents, and AutoRedClaw's auto-generated attacks exceeded 50% ASR on most of seven harnesses. Each result carries its own protocol and denominator; none licenses a pooled effect.
+
 
 ### Concrete Implementation and Auditable Outputs
 
